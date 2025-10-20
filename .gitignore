@@ -1,24 +1,17 @@
-# build output
-dist/
+# Dart tool directory
+.dart_tool/
 
-# generated types
-.astro/
+# Flutter build directory
+build/
 
-# dependencies
-node_modules/
+# IDE specific files
+.idea/
+.vscode/
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Lock files
+pubspec.lock
 
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
-.DS_Store
-
-# Local Netlify folder
-.netlify
+# Packages files
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
